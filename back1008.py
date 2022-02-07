@@ -1,0 +1,5 @@
+str=input()
+str.split(' ')
+a = float(str[0])
+b = float(str[2])
+print(a/b)

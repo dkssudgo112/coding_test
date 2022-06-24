@@ -1,0 +1,12 @@
+a = input()
+a = int(a)
+num_list = list(map(int, input().split()))
+
+m = max(num_list)
+
+
+for i in range(a):
+    num_list[i] = num_list[i]/m * 100
+
+print(sum(num_list, 0.0)/len(num_list))
+
